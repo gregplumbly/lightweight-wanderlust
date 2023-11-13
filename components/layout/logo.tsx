@@ -27,7 +27,7 @@ export default function Logo({ sx }: Props) {
             },
           }}
         >
-          Wanderlust
+          Parakeets.ai
         </Typography>
       </Box>
     </Box>

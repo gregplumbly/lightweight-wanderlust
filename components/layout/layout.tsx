@@ -13,6 +13,7 @@ const Layout = ({ children }: Props) => (
     </Head>
     <Box display="flex" flexDirection="column" minHeight="100vh">
       <NavBar />
+
       <Container component="main" sx={{ flexGrow: 1, mt: 5 }}>
         {children}
       </Container>

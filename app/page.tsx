@@ -51,7 +51,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Wanderlust</title>
+        <title>Parakeet AI - Applied AI seervices</title>
       </Head>
       <Box
         component="main"

@@ -22,22 +22,8 @@ const Footer = () => (
         align="center"
         sx={{ mr: 1 }}
       >
-        Follow me at
+        Parakeets AI, Surrey, UK
       </Typography>
-      <IconButton
-        href="https://twitter.com/dane_albaugh"
-        target="_blank"
-        sx={{ color: "text.secondary" }}
-      >
-        <TwitterIcon />
-      </IconButton>
-      <IconButton
-        href="https://github.com/malbaugh"
-        target="_blank"
-        sx={{ color: "text.secondary" }}
-      >
-        <GithubIcon />
-      </IconButton>
     </Container>
   </Box>
 );

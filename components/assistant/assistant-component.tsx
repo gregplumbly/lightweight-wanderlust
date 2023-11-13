@@ -33,11 +33,11 @@ function AssistantComponent({ threadId }: { threadId: string }) {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   // Map state
   const [mapCenter, setMapCenter] = useState<Center>({
-    lat: 37.7749,
-    lng: -122.4194,
+    lat: 51.3885,
+    lng: -0.417,
   });
   const [pointsOfInterest, setPointsOfInterest] = useState<Marker[]>([]);
-  const [mapZoomLevel, setMapZoomLevel] = useState<number>(12);
+  const [mapZoomLevel, setMapZoomLevel] = useState<number>(9);
   // Chat state
   const [userPrompt, setUserPrompt] = useState<string>("");
   const [currentRun, setCurrentRun] = useState<Run | null>(null);
@@ -274,6 +274,19 @@ function AssistantComponent({ threadId }: { threadId: string }) {
 
   return (
     <>
+      <p>
+        We are a UK based studio specialising in developing AI solutions. We
+        develop ChatGPT plugins, assistants, agents, computer vision, stable
+        diffusion, LLM fine tuning, generative AI, text to speech, image
+        generation, prospecting chatbots, customer service agents, web design
+        and development.
+      </p>
+      <p>
+        Below is an example of an OpenAI assistant that uses function calling to
+        update the map UI from the conversation based on an open source project
+        from @dane_albaugh
+      </p>
+
       <Box
         sx={{
           mx: 4,
@@ -344,7 +357,7 @@ function AssistantComponent({ threadId }: { threadId: string }) {
                   }
                 }}
                 disabled={assistantWriting}
-                placeholder="Start typing or upload a file..."
+                placeholder="Start typing..."
                 sx={{ fontSize: "1.6rem", fontWeight: 600 }}
               />
             </Box>
