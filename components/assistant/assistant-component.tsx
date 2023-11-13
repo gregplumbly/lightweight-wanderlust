@@ -282,6 +282,10 @@ function AssistantComponent({ threadId }: { threadId: string }) {
         and development.
       </p>
       <p>
+        if you would like to discuss your project get in touch info [at]
+        parakeets.ai
+      </p>
+      <p>
         Below is an example of an OpenAI assistant that uses function calling to
         update the map UI from the conversation based on an open source project
         from @dane_albaugh
