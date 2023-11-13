@@ -23,6 +23,10 @@ export default function Index() {
   }
 
   useEffect(() => {
+    document.title = "Parakeet AI development services";
+  });
+
+  useEffect(() => {
     if (!threadId) {
       const cachedThreadId = Cookie.get("threadId");
       if (cachedThreadId) {
