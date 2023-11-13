@@ -23,7 +23,7 @@ export default function Index() {
   }
 
   useEffect(() => {
-    document.title = "Parakeet AI development services";
+    document.title = "Parakeets AI development services";
   });
 
   useEffect(() => {
