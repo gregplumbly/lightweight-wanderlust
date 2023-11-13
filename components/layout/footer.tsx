@@ -22,7 +22,7 @@ const Footer = () => (
         align="center"
         sx={{ mr: 1 }}
       >
-        Parakeets AI, Surrey, UK
+        Parakeets AI, Weybridge, Surrey, UK
       </Typography>
     </Container>
   </Box>
